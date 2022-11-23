@@ -53,5 +53,10 @@
         {
             ActualResult = Calculator.Subtract(FirstNumber, SecondNumber);
         }
+
+        internal void Divide()
+        {
+            ActualResult = Calculator.Divide(FirstNumber, SecondNumber);
+        }
     }
 }
