@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleCalculator", "SimpleC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{5142F2C2-EB3C-482E-9EEB-12C27A20F39E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator.Specs", "SimpleCalculator.Specs\SimpleCalculator.Specs.csproj", "{4460D778-626A-4317-AA93-A8B38208AA40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{5142F2C2-EB3C-482E-9EEB-12C27A20F39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5142F2C2-EB3C-482E-9EEB-12C27A20F39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5142F2C2-EB3C-482E-9EEB-12C27A20F39E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4460D778-626A-4317-AA93-A8B38208AA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4460D778-626A-4317-AA93-A8B38208AA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4460D778-626A-4317-AA93-A8B38208AA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4460D778-626A-4317-AA93-A8B38208AA40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5142F2C2-EB3C-482E-9EEB-12C27A20F39E} = {CB18F9A0-0226-4C1D-8194-C64234A50BCD}
+		{4460D778-626A-4317-AA93-A8B38208AA40} = {CB18F9A0-0226-4C1D-8194-C64234A50BCD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {902F9CBC-7794-415A-9178-23CEE83030E0}
